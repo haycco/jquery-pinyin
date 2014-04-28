@@ -11,8 +11,8 @@ Installation
 Usage
 -----
 
-    var pinyin = $.Pinyin({short:false, value:"ÄãºÃÂğ"});
+    var pinyin = $.Pinyin({short:false, value:"ä½ å¥½å—"});
     result for it: NiHaoMa
 
-    var pinyin = $.Pinyin({short:true, value:"ÄãºÃÂğ"});
+    var pinyin = $.Pinyin({short:true, value:"ä½ å¥½å—"});
     result for it: NHM
