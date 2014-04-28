@@ -6,7 +6,7 @@ The jQuery plugin used to transfer for Pinyin with Chinese character
 Installation
 -------
     <script type="text/javascript" charset="utf-8" src="jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" src="jquery.pinyin.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery.pinyin.js"></script>
 
 Usage
 -----
