@@ -1,7 +1,7 @@
 jQuery-Pinyin
 =============
 
-The jQuery plugin used to transfer for Pinyin with Chinese character
+The jQuery plugin used to transform Pinyin with Chinese character
 
 Installation
 -------
