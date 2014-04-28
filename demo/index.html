@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8" />
+  <title>jQuery Pinyin Plugin's Demo</title>  
+  <script type="text/javascript" src="../src/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="../src/jquery.pinyin.js"></script>
+  <script type="text/javascript">
+    $(function(){
+		$("#transferBtn").click(function(){
+			var pinyin = $.Pinyin({ 
+								 short: $("#shortChk").prop("checked"),
+								 value: $("#character").val() 
+							   });
+			$("#lenResult").html(pinyin);
+		});
+	});
+  </script>
+</head>
+
+<body>
+  <div style="text-align: center; margin: 20px auto;">
+    <div style="display: inline-block; text-align: left;">
+      演示中文：<input type="text" id="character" value="你好吗" />
+      <label for="shortChk"><input type="checkbox" id="shortChk" /> 简拼</label>
+	  <input type="button" id="transferBtn" value="转换" />
+	  <br/>
+	  转换结果：
+	  <span id="lenResult" style="color:red; font-weight:bold;"></span>
+	</div>
+  </div>
+</body>
+</html>
